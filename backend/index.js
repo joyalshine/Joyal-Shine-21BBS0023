@@ -135,8 +135,8 @@ wss.on('connection', ws => {
         for(let j=0;j<5;j++) game.board[i][j] = null
       }
       game.currentTurn = 0;
-      game["A"] = 0;
-      game["B"] = 0;
+      game["A"] = 5;
+      game["B"] = 5;
       game.gameOver = false;
       game.players.forEach((player, index) => {
         player.send(JSON.stringify({ type: 'getChars', playerId: index, characters: Characters }));
