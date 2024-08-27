@@ -1,11 +1,11 @@
-```markdown
+
 # Game Project
 
 This project is a web-based game with a React frontend and a Node.js/Express backend. The game allows players to join and play in real-time with WebSocket communication.
 
 ## Project Structure
 
-```
+```bash
 root/
 │
 ├── frontend/       # Contains the React frontend code
