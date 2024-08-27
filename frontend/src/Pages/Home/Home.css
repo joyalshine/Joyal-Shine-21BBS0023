@@ -1,0 +1,48 @@
+.home-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .create-game-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-game-button:hover {
+    background-color: #45a049;
+  }
+  
+  .game-id-container {
+    margin-top: 20px;
+  }
+  
+  .game-id-container p {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .game-id-container h2 {
+    font-size: 24px;
+    color: #ff5722;
+  }
+
+  .launch-game-button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #66d9ed;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .text-white{
+    color: white !important;
+  }
